@@ -4,7 +4,7 @@ const Nav = () => {
     const navigate = useNavigate();
 
     const goHome = () => {
-        navigate("/");
+        navigate("/portfolio");
     }
 
     const goProjects = () => {
