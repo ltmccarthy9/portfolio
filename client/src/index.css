@@ -16,6 +16,11 @@ code {
 h1{
   color: rgb(29, 28, 30);
   font-size: 290%;
+  font-weight: lighter;
+  transition: all .11s ease-in 100ms;
+}
+
+h1:hover{
   font-weight: bolder;
 }
 
@@ -72,14 +77,15 @@ h5:hover{
 
 .bio{
   margin-top: 100px;
-  box-shadow: 1px 1px 4px rgb(29, 28, 30);
+  border: 1px solid black;
   padding: 40px;
   transition: all .11s ease-in 100ms;
+  width: 50%;
 }
 
 .bio:hover{
   transform: scale(1.1);
-  box-shadow: 1px 1px 30px rgb(29, 28, 30);
+  box-shadow: 15px 15px 1px rgb(63, 60, 60);
   font-size: 140%;
 }
 p{
