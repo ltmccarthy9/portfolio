@@ -21,7 +21,7 @@ const Projects = () => {
         <div>
         <div onClick={goManager} className="container proj">
             <h2>Appointment Manager (group)</h2>
-            <p>Full stack application of a mock hospital.  User can sign up
+            <p>Full stack application of a mock hospital. The user can sign up
                 and login to create, view, and delete appointments at their
                 department of need and their doctor of choice at a specific time.
                 I was responsible for the login/sign up as well as the appointment creation
