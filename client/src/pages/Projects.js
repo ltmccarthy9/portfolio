@@ -19,7 +19,6 @@ const Projects = () => {
 
     return(
         <div>
-            <h2 className="projects">Projects</h2>
         <div onClick={goManager} className="container proj">
             <h2>Appointment Manager (group)</h2>
             <p>Full stack application of a mock hospital.  User can sign up
