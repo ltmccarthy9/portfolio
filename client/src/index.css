@@ -20,9 +20,6 @@ h1{
   transition: all .11s ease-in 100ms;
 }
 
-h1:hover{
-  font-weight: bolder;
-}
 
 h5{
   color: rgb(29, 28, 30);
@@ -47,36 +44,41 @@ p{
   align-items: center;
   align-content: center;
   justify-content: center;
-  box-shadow: 0px 1px 20px rgb(29, 28, 30);
+  box-shadow: 0px 1px 3px rgb(29, 28, 30);
 }
 
 .name{
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 5%;
+  border-radius: 20px;
+  padding: 5px;
+  transition: all .11s ease-in 100ms;
 }
 
 .name:hover{
   cursor: pointer;
+  box-shadow: 3px 3px 1px rgb(63, 60, 60);
+  border: 1px solid black;
+  transform: scale(1.1);
 }
 .nav-card{
-  border-radius: 50px;
+  border-radius: 20px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 2%;
   margin-right: 2%;
   transition: all .11s ease-in 100ms;
+  padding: 5px
 }
 
 .nav-card:hover{
   cursor: pointer;
   transform: scale(1.3);
+  box-shadow: 3px 3px 1px rgb(63, 60, 60);
+  border: 1px solid black;
 }
 
-h5:hover{
-  color: rgb(29, 28, 30);
-  font-weight: bolder;
-}
 
 .bio{
   margin-top: 100px;
@@ -98,16 +100,15 @@ h5:hover{
 .proj:hover{
   transform: scale(1.1);
   box-shadow: 15px 15px 1px rgb(63, 60, 60);
-  font-size: 140%;
+  cursor: pointer;
 }
 
 .bio:hover{
   transform: scale(1.1);
   box-shadow: 15px 15px 1px rgb(63, 60, 60);
-  font-size: 140%;
 }
 p{
-  font-size: 100%;
+  font-size: 110%;
   color: rgb(29, 28, 30);
 }
 
@@ -116,4 +117,36 @@ p{
   margin-top: 30px;
   font-weight: bolder;
   font-size: 250%;
+}
+
+.resume{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid black;
+  transition: all .11s ease-in 100ms;
+}
+
+.resume:hover{
+  transform: scale(1.1);
+  box-shadow: 15px 15px 1px rgb(63, 60, 60);
+}
+
+#github:hover{
+  background-color: grey;
+}
+
+#linkedin:hover{
+  background-color: rgb(54, 54, 202);
+}
+
+#github h5:hover{
+  color: white;
+}
+
+#linkedin h5:hover{
+  color: white;
 }

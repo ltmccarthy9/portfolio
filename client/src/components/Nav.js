@@ -34,6 +34,12 @@ const Nav = () => {
             <div onClick={goContact} className="nav-card">
                 <h5>Contact</h5>
             </div>
+            <div id="github" className="nav-card">
+                <h5>GitHub</h5>
+            </div>
+            <div id="linkedin" className="nav-card">
+                <h5>LinkedIn</h5>
+            </div>
         </div>
     );
 }
