@@ -2,7 +2,7 @@
 
 ## Live Site
  
-- - - - - > https://ltmccarthy9.github.io/portfolio < - - - - - 
+https://ltmccarthy9.github.io/portfolio < - - - - - 
 
 ## Description
 
