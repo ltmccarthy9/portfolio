@@ -19,6 +19,13 @@ const Nav = () => {
         navigate("/contact");
     }
 
+    const goGit = () => {
+        window.open("https://github.com/ltmccarthy9");
+    }
+
+    const goLinked = () => {
+        window.open("https://www.linkedin.com/in/liam-mccarthy-b06b9a218/")
+    }
 
     return (
         <div className="banner">
@@ -34,10 +41,10 @@ const Nav = () => {
             <div onClick={goContact} className="nav-card">
                 <h5>Contact</h5>
             </div>
-            <div id="github" className="nav-card">
+            <div onClick={goGit} id="github" className="nav-card">
                 <h5>GitHub</h5>
             </div>
-            <div id="linkedin" className="nav-card">
+            <div onClick={goLinked} id="linkedin" className="nav-card">
                 <h5>LinkedIn</h5>
             </div>
         </div>
