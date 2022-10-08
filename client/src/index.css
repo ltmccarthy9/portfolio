@@ -159,3 +159,42 @@ p{
 #linkedin:hover h5{
   color: white;
 }
+
+.contact-name{
+  border: 1px solid rgb(41, 40, 40);
+}
+
+.contact-name:hover{
+  box-shadow: 7px 7px 1px rgb(63, 60, 60);
+}
+
+.sub{
+  border: 1px solid rgb(142, 141, 141);
+}
+
+.sub:hover{
+  box-shadow: 7px 7px 1px rgb(63, 60, 60);
+}
+.contact-section{
+  display: flex;
+}
+
+.contact-me{
+  margin-top: 100px;
+  box-shadow: 1px 1px 2px rgb(70, 70, 70);
+  padding: 40px;
+  transition: all .11s ease-in 100ms;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-me:hover{
+  transform: scale(1.1);
+  box-shadow: 15px 15px 1px rgb(63, 60, 60);
+  border: 1px solid rgb(128, 126, 126);
+}

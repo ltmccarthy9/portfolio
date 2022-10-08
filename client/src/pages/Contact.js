@@ -20,25 +20,25 @@ const Contact = () => {
             form.reset();
     }
     return(
-        <div className="container bio">
-           <div>
-        <h1 style={{textAlign: "center"}}>Contact Me</h1>
+        <div className="container contact-section">
+           <div className="contact-me">
+        <h1 style={{textAlign: "center", fontWeight: "bolder"}}>Contact Me</h1>
         <h3 style={{textAlign: "center", fontWeight: "lighter", marginTop: "1em"}}>ltmccarthy9@gmail.com</h3>
         <div className='contactCard'>
         <form id="myForm" onSubmit={sendEmail}>
         
                 <label style={{fontWeight: 'bolder'}} htmlFor="examplename" className="form-label">Name</label>
-                <input style={{marginBottom: '20px'}}type="name" name="name" className="form-control" id="examplename" aria-describedby="nameHelp"></input>
+                <input style={{marginBottom: '20px'}}type="name" name="name" className="form-control contact-name" id="examplename" aria-describedby="nameHelp"></input>
             
             
                 <label style={{fontWeight: 'bolder'}} htmlFor="exampleInputEmail" className="form-label">Email address</label>
-                <input style={{marginBottom: '20px'}} type="email" name="user_email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp"></input>
+                <input style={{marginBottom: '20px'}} type="email" name="user_email" className="form-control contact-name" id="exampleInputEmail" aria-describedby="emailHelp"></input>
             
             
-                <label style={{fontWeight: 'bolder'}} htmlFor="message" className="form-label">Message</label>
-                <textarea type="message" name="message" className="form-control" id="message" rows='4'/>
+                <label style={{fontWeight: 'bolder'}} htmlFor="message" className="form-label ">Message</label>
+                <textarea type="message" name="message" className="form-control contact-name" id="message" rows='4'/>
             
-            <button style={{margin: "7px"}} type="submit" className="btn btn-dark">Submit</button>
+            <button style={{margin: "7px"}} type="submit" className="btn btn-light sub">Submit</button>
         </form>
         </div>
         
