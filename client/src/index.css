@@ -55,15 +55,17 @@ p{
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 5%;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   transition: all .13s ease-out 100ms;
 }
 
 .name:hover{
-  border-radius: 8px;
   cursor: pointer;
-  box-shadow: 3px 3px 1px rgb(63, 60, 60);
-  background-color: rgb(241, 241, 241);
+  box-shadow: 5px 5px 1px rgb(63, 60, 60);
+  background-color: rgb(255, 255, 255);
   transform: scale(1.1);
 }
 .nav-card{
@@ -77,10 +79,9 @@ p{
 }
 
 .nav-card:hover{
-  border-radius: 8px;
   cursor: pointer;
   transform: scale(1.1);
-  box-shadow: 3px 3px 1px rgb(63, 60, 60);
+  box-shadow: 5px 5px 1px rgb(63, 60, 60);
   background-color: rgb(255, 255, 255);
 }
 
