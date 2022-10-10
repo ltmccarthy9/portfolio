@@ -36,7 +36,7 @@ const Projects = () => {
             </p>
         </div>
         <div onClick={goFriends} className="container proj">
-            <h2>Friends First (Development)</h2>
+            <h2>Friends First (development)</h2>
             <p>My personal take on a dating application.  Started the project
                 solo but recently added a few team members for collaboration.
             </p>
