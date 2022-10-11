@@ -72,6 +72,7 @@ p{
 .nav-card{
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 10px;
   transition: all .2s ease-in 100ms;
   padding-left: 15px;
   padding-right: 15px;
@@ -187,7 +188,7 @@ p{
   margin-top: 100px;
   box-shadow: 1px 1px 2px rgb(96, 91, 91);
   padding: 40px;
-  transition: all .11s ease-in 100ms;
+  transition: all .2s ease-in 100ms;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -217,7 +218,7 @@ p{
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 858px) {
   .banner{
     flex-direction: column;
     height: auto;
@@ -240,5 +241,12 @@ p{
   }
   .proj{
     width: 80%;
+  }
+  .name{
+    margin-top: 10px;
+  }
+
+  .nav-card{
+    margin-top: 10px;
   }
 }
