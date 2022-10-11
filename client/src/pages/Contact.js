@@ -38,7 +38,7 @@ const Contact = () => {
                 <label style={{fontWeight: 'bolder'}} htmlFor="message" className="form-label ">Message</label>
                 <textarea type="message" name="message" className="form-control contact-name" id="message" rows='4'/>
             
-            <button style={{margin: "7px"}} type="submit" className="btn btn-light sub">Submit</button>
+            <button style={{margin: "10px"}} type="submit" className="btn btn-light sub">Submit</button>
         </form>
         </div>
         
