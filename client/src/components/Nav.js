@@ -8,15 +8,15 @@ const Nav = () => {
     }
 
     const goProjects = () => {
-        navigate("/projects");
+        navigate("/portfolio/projects");
     }
 
     const goResume = () => {
-        navigate("/resume");
+        navigate("/portfolio/resume");
     }
 
     const goContact = () => {
-        navigate("/contact");
+        navigate("/portfolio/contact");
     }
 
     const goGit = () => {
