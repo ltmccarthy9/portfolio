@@ -28,8 +28,8 @@ h5{
   transition: all .11s ease-in 100ms;
 }
 
-p{
-  color: white;
+h2 {
+  font-size: 140%;
 }
 
 
@@ -60,12 +60,12 @@ p{
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
-  transition: all .2s ease-out 100ms;
+  transition: all .3s ease-out 100ms;
 }
 
 .name:hover{
   cursor: pointer;
-  box-shadow: 3px 7px 1px rgb(96, 91, 91);
+  box-shadow: 2px 2px 2px rgb(96, 91, 91);
   background-color: rgb(255, 255, 255);
   transform: scale(1.05);
 }
@@ -73,7 +73,7 @@ p{
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 10px;
-  transition: all .2s ease-in 100ms;
+  transition: all .3s ease-in 100ms;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
@@ -84,7 +84,7 @@ p{
 .nav-card:hover{
   cursor: pointer;
   transform: scale(1.05);
-  box-shadow: 3px 5px 1px rgb(96, 91, 91);
+  box-shadow: 3px 3px 2px rgb(96, 91, 91);
   background-color: rgb(255, 255, 255);
 }
 
@@ -122,7 +122,7 @@ p{
   border: 1px solid rgb(128, 126, 126);
 }
 p{
-  font-size: 110%;
+  font-size: 100%;
   color: rgb(29, 28, 30);
 }
 
