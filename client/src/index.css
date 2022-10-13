@@ -73,7 +73,7 @@ h2 {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 10px;
-  transition: all .3s ease-in 100ms;
+  transition: all .3s ease-out 100ms;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
