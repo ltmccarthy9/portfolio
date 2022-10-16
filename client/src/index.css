@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(255, 255, 255);;
+  background-color: rgb(235, 235, 235);
 }
 
 code {
@@ -14,7 +14,7 @@ code {
 }
 
 h1{
-  color: rgb(29, 28, 30);
+  color: #303939;
   font-size: 290%;
   font-weight: lighter;
   transition: all .11s ease-in 100ms;
@@ -22,7 +22,7 @@ h1{
 
 
 h5{
-  color: rgb(29, 28, 30);
+  color: #303939;
   font-size: 160%;
   font-weight: lighter;
   transition: all .11s ease-in 100ms;
@@ -46,11 +46,9 @@ h2 {
   justify-content: center;
   /* box-shadow: 0px 1px 3px rgb(29, 28, 30); */
   transition: all 1s ease-out 100ms;
+  background-color: rgb(235, 235, 235);
 }
 
-.banner:hover{
-  background-color: rgb(232, 231, 231);
-}
 .name{
   margin-top: auto;
   margin-bottom: auto;
@@ -61,30 +59,30 @@ h2 {
   padding-bottom: 10px;
   border-radius: 10px;
   transition: all .3s ease-out 100ms;
+  background-color: rgb(255, 255, 255);
 }
 
 .name:hover{
   cursor: pointer;
-  box-shadow: 2px 2px 2px rgb(96, 91, 91);
+  box-shadow: -9px 9px 1px #4b5b5b;
   background-color: rgb(255, 255, 255);
-  transform: scale(1.05);
 }
 .nav-card{
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 10px;
-  transition: all .3s ease-out 100ms;
+  transition: all .2s ease-out 100ms;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 10px;
+  background-color: rgb(255, 255, 255);
 }
 
 .nav-card:hover{
   cursor: pointer;
-  transform: scale(1.05);
-  box-shadow: 3px 3px 2px rgb(96, 91, 91);
+  box-shadow: -6px 6px 1px #4b5b5b;
   background-color: rgb(255, 255, 255);
 }
 
@@ -92,34 +90,31 @@ h2 {
 
 .bio{
   margin-top: 100px;
-  box-shadow: 1px 1px 2px rgb(96, 91, 91);
   padding: 40px;
   transition: all .2s ease-in 100ms;
   width: 35%;
   border-radius: 20px;
+  background-color: rgb(255, 255, 255);
 }
 
 .proj{
   margin-bottom: 60px;
   margin-top: 40px;
-  box-shadow: 1px 1px 3px rgb(96, 91, 91);
   padding: 40px;
   transition: all .20s ease-in 100ms;
   width: 35%;
   border-radius: 20px;
+  background-color: white;
 }
 
 .proj:hover{
   transform: scale(1.1);
-  box-shadow: 15px 15px 1px rgb(96, 91, 91);
+  box-shadow: -9px 9px 1px #4b5b5b;
   cursor: pointer;
-  border: 1px solid rgb(160, 157, 157);
 }
 
 .bio:hover{
-  transform: scale(1.1);
-  box-shadow: 15px 15px 1px rgb(96, 91, 91);
-  border: 1px solid rgb(128, 126, 126);
+  box-shadow: -9px 9px 1px #4b5b5b;
 }
 p{
   font-size: 100%;
@@ -140,13 +135,13 @@ p{
   align-items: center;
   align-content: center;
   justify-content: center;
-  border: 1px solid black;
-  transition: all .11s ease-in 100ms;
+  border: 1px solid white;
+  transition: all .2s ease-in 100ms;
 }
 
 .resume:hover{
   transform: scale(1.1);
-  box-shadow: 15px 15px 1px rgb(96, 91, 91);
+  box-shadow: -9px 9px 1px #4b5b5b;
 }
 
 #github:hover{
@@ -166,19 +161,19 @@ p{
 }
 
 .contact-name{
-  border: 1px solid rgb(41, 40, 40);
+  border: 1px solid #4b5b5b;
 }
 
 .contact-name:hover{
-  box-shadow: 7px 7px 1px rgb(96, 91, 91);
+  box-shadow: -5px 5px 1px #4b5b5b;
 }
 
 .sub{
-  border: 1px solid rgb(142, 141, 141);
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .sub:hover{
-  box-shadow: 7px 7px 1px rgb(96, 91, 91);
+  box-shadow: -5px 5px 1px #4b5b5b;
 }
 .contact-section{
   display: flex;
@@ -186,7 +181,6 @@ p{
 
 .contact-me{
   margin-top: 100px;
-  box-shadow: 1px 1px 2px rgb(96, 91, 91);
   padding: 40px;
   transition: all .2s ease-in 100ms;
   width: 50%;
@@ -197,12 +191,11 @@ p{
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
+  background-color: white;
 }
 
 .contact-me:hover{
-  transform: scale(1.1);
-  box-shadow: 15px 15px 1px rgb(96, 91, 91);
-  border: 1px solid rgb(128, 126, 126);
+  box-shadow: -9px 9px 1px #4b5b5b;
 }
 
 
