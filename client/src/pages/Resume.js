@@ -1,4 +1,4 @@
-import resume from './pictures/res23.png'
+import resume from './pictures/res15.png'
 
 const Resume = () => {
     return(
